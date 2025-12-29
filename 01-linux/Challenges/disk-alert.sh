@@ -3,7 +3,7 @@
 THRESHOLD="${1:-90}"
 EXIT_CODE=0
 
-df -P | awk 'NR>1 {print $1, $5}' | while read FS USAGE; do
+while read FS USAGE; do
   USED=${USAGE%\%}
 
   if [ "$USED" -ge "$THRESHOLD" ]; then
@@ -12,6 +12,6 @@ df -P | awk 'NR>1 {print $1, $5}' | while read FS USAGE; do
   else
     echo "OK: $FS is at ${USED}%"
   fi
-done
+done < <(df -P | awk 'NR>1 {print $1, $5}')
 
 exit $EXIT_CODE
