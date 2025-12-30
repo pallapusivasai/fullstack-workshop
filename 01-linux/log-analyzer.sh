@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 LOG_FILE="$1"
 VERBOSE=false
 

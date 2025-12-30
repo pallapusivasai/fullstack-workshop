@@ -66,4 +66,4 @@ function validatePassword(password) {
 
 
 
-console.log(validatePassword("MyP@ssw0rd!2024"));
+console.log(validatePassword("MyP"));

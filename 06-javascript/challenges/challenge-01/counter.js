@@ -30,7 +30,7 @@ incrementBtn.addEventListener("click", () => {
 
 // Decrement (cannot go below 0)
 decrementBtn.addEventListener("click", () => {
-  if (count - step >= 0) {
+  if (count - step <= 0) {
     count -= step;
   } else {
     count = 0;

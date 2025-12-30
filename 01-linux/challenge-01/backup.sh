@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 SRC="$1"
 DEST="$2"

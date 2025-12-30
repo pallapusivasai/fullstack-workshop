@@ -1,6 +1,8 @@
 # Check argument
+set -e
+
 if [ -z "$1" ]; then
-  echo "Usage: $0 /d/Revature_Training/01-linux/Challenges/test-files"
+  echo "Usage: $0 /d/Revature_Training/01-linux/challenges/test-files"
   exit 1
 fi
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 echo "=== User Audit Report ==="
 
@@ -10,6 +11,8 @@ echo "Users with shell access: $SHELL_USERS"
 
 echo "Users without password:"
 NO_PASS_USERS=$(awk -F: '($2=="!" || $2=="") {print $1}' /etc/shadow 2>/dev/null)
+
+
 
 COUNT_NO_PASS=0
 for user in $NO_PASS_USERS; do

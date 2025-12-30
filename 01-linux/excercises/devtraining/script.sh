@@ -1,1 +1,1 @@
-echo Script running
+echo "Script running"

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 PROCESS="$1"
 INTERVAL="$2"
