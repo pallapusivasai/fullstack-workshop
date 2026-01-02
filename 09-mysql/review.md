@@ -1,13 +1,13 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2026-01-02 13:59
+**Review Date:** 2026-01-02 16:51
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 3
+**Files submitted:** 4
 
 ### Relevance Check
 
@@ -27,7 +27,7 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ✅ Submitted (3 files)
+**Status:** ✅ Submitted (4 files)
 
 ### Challenge Relevance Check
 
@@ -63,6 +63,19 @@ Please complete the correct exercise and resubmit.
 
    **Score: 4/4**
 
+📄 **name-formatter.sql**
+   Lines: 40
+
+    📋 **Challenge 6: Employee Name Formatter**
+    Expected: formatted_name, email, initials (string functions)
+
+    - ✅ Uses UPPER() function
+    - ✅ Uses CONCAT() for string building
+    - ✅ Uses LEFT() for initials
+    - ✅ Generates email format
+
+   **Score: 4/4**
+
 📄 **project-workload.sql**
    Lines: 11
 
@@ -77,7 +90,7 @@ Please complete the correct exercise and resubmit.
 
    **Score: 5/5**
 
-### Challenge Score: 14 / 14 (100%)
+### Challenge Score: 18 / 18 (100%)
 
 
 ---
