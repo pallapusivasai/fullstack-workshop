@@ -1,7 +1,7 @@
 # Review: 01-linux
 
 **Exercise:**  Exercise: Log File Analyzer Script
-**Review Date:** 2025-12-31 10:56
+**Review Date:** 2026-01-02 13:59
 
 ---
 
@@ -45,15 +45,15 @@ Relevance check not configured for this topic
 
 📄 **file-organizer.sh**
    Path: `01-linux/challenge-01/file-organizer.sh`
-   Lines: 37
+   Lines: 38
 
     - ❌ Missing shebang (`#!/bin/bash`)
     - ✅ Has error handling (`set -e`)
     - ✅ Handles command-line arguments
-    - 💡 Consider adding more comments
+    - ✅ Has comments (3 lines)
     - ✅ Variables are properly quoted
 
-   **Score: 3/5**
+   **Score: 4/5**
 
 📄 **process-monitor.sh**
    Path: `01-linux/challenge-01/process-monitor.sh`
@@ -91,7 +91,7 @@ Relevance check not configured for this topic
 
    **Score: 5/5**
 
-### Topic Score: 29 / 35 (82%)
+### Topic Score: 30 / 35 (85%)
 
 ### Technical Checklist
 
@@ -138,15 +138,15 @@ Relevance check not configured for this topic
    **Score: 4/5**
 
 📄 **file-organizer.sh**
-   Lines: 37
+   Lines: 38
 
     - ❌ Missing shebang (`#!/bin/bash`)
     - ✅ Has error handling (`set -e`)
     - ✅ Handles command-line arguments
-    - 💡 Consider adding more comments
+    - ✅ Has comments (3 lines)
     - ✅ Variables are properly quoted
 
-   **Score: 3/5**
+   **Score: 4/5**
 
 📄 **process-monitor.sh**
    Lines: 25
@@ -170,7 +170,7 @@ Relevance check not configured for this topic
 
    **Score: 4/5**
 
-### Challenge Score: 19 / 25 (76%)
+### Challenge Score: 20 / 25 (80%)
 
 
 ---
